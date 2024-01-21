@@ -1,0 +1,32 @@
+
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container Styles */
+        .paragraph-container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+        }
+
+        /* Paragraph Styles */
+        .paragraph-container p {
+            padding: 10px;
+            margin: 0;
+            color: white;
+            background-color: blue;
+        }
+
+        /* Specific Styles for the First Paragraph */
+        .paragraph-container p:first-child {
+            background-color: yellow;
+            color: red;
+        }
+        
+ 
